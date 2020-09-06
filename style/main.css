@@ -44,9 +44,9 @@ header nav a:hover {
 /* main movie check this out to try to improve the main movie background*/
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/lotr-cover2.jpg');
-    height: 400px;
-    background-size: 100%;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url('/img/lotr-cover2.jpg');
+    height: 470px;
+    background-size: cover; /* fits wallpaper best */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,11 +55,12 @@ header nav a:hover {
 
 .main-movie .description {
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .main-movie .title {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -85,12 +86,12 @@ header nav a:hover {
 }
 
 .container {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 /* Resizing page to fit other screen-sized devices */
 .main-movie .container {
-    width: 65%;
+    width: 80%;
 }
 
 .film-box {
