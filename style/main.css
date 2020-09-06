@@ -41,12 +41,12 @@ header nav a:hover {
     color: #fff;
 }
 
-/*main movie*/
+/* main movie check this out to try to improve the main movie background*/
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/lotr-cover.jpg');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/lotr-cover2.jpg');
     height: 400px;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,4 +91,10 @@ header nav a:hover {
 /* Resizing page to fit other screen-sized devices */
 .main-movie .container {
     width: 70%;
+}
+
+.film-box {
+    height: 100%;
+    width: 100%;
+    display: block; 
 }
