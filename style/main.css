@@ -12,6 +12,7 @@
 body{
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /* sets menu aligned with logo to the right */
@@ -38,4 +39,24 @@ header nav a {
 /* hover makes the transition when mouse goes over the links*/
 header nav a:hover {
     color: #fff;
+}
+
+/*main movie*/
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/lotr-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 40px;
 }
