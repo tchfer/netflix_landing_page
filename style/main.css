@@ -1,0 +1,41 @@
+:root{
+    --red: #e50914;
+    --black: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* sets limit to the boxes so images don't get larger*/
+}
+
+body{
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* sets menu aligned with logo to the right */
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* creates a space between the logo and the menu bar*/
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px; /* spaces between navigating menu*/
+}
+
+/* hover makes the transition when mouse goes over the links*/
+header nav a:hover {
+    color: #fff;
+}
