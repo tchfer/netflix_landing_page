@@ -83,3 +83,12 @@ header nav a:hover {
 .button i {
     margin-right: 10px;
 }
+
+.container {
+    margin-left: 20px;
+}
+
+/* Resizing page to fit other screen-sized devices */
+.main-movie .container {
+    width: 70%;
+}
